@@ -5,8 +5,8 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: SwiggyWebClient
-          uri: lb://SWIGGYWECLIENT
+        - id: Swiggy-Web-Client
+          uri: lb://SWIGGY-WEB-CLIENT
           predicates:
             - Path=/swiggy/**
           filters:
